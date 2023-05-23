@@ -5,7 +5,7 @@ import os
 
 url = "https://ssapi.shipstation.com//shipments/?storeId=959579&pageSize=500&createDateStart=1/1/2023&page={page}"
 headers = {
-    'Authorization': 'Basic (My KEY)
+    'Authorization': 'Basic (My KEY)'
 }
 
 #Iterate through JSON response and combine all data
